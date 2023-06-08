@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-int main( int argc, char * argv[] ) {
-
+int main () {
     time_t begin = time( NULL );
     
     for (int i = 0; i < 1000000000; i++) "";
@@ -11,6 +10,6 @@ int main( int argc, char * argv[] ) {
 
     double secondes = difftime( end, begin );
     printf( "Execution time: %.2f s\n", secondes );  
-        
+      
     return 0;
 }

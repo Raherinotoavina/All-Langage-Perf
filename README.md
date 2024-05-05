@@ -4,7 +4,6 @@
 ### Rapidity test for different langage :
 <p>Let programming languages ​​iterate from 0 to 1000000000 : </p>
 <ul>
-  <li>Javascript(NodeJS) : 1 - 2s</li>
   <li>Langage C : 2 - 3s</li>
   <li>C++ : 2 - 3s</li>
   <li>Python : 53 - 70s</li>
